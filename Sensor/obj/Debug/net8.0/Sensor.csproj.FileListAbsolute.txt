@@ -1,0 +1,15 @@
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.AssemblyInfoInputs.cache
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.AssemblyInfo.cs
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.csproj.CoreCompileInputs.cache
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.sourcelink.json
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\bin\Debug\net8.0\Sensor.exe
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\bin\Debug\net8.0\Sensor.deps.json
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\bin\Debug\net8.0\Sensor.runtimeconfig.json
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\bin\Debug\net8.0\Sensor.dll
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\bin\Debug\net8.0\Sensor.pdb
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.dll
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\refint\Sensor.dll
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.pdb
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\Sensor.genruntimeconfig.cache
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Sensor\obj\Debug\net8.0\ref\Sensor.dll

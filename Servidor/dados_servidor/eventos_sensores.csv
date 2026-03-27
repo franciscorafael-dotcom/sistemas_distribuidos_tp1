@@ -1,0 +1,3 @@
+﻿timestamp,gateway_id,sensor_id,evento,zona,detalhes
+2026-03-27T17:48:34,GW01,S101,START,ZONA_CENTRO,
+2026-03-27T17:48:34,GW01,S101,REGISTER,,TEMP,HUM,RUIDO

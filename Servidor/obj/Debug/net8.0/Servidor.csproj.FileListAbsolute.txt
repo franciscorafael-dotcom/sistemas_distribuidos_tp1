@@ -1,0 +1,15 @@
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\bin\Debug\net8.0\Servidor.exe
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\bin\Debug\net8.0\Servidor.deps.json
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\bin\Debug\net8.0\Servidor.runtimeconfig.json
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\bin\Debug\net8.0\Servidor.dll
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\bin\Debug\net8.0\Servidor.pdb
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.AssemblyInfoInputs.cache
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.AssemblyInfo.cs
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.sourcelink.json
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.dll
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\refint\Servidor.dll
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.pdb
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\Servidor.genruntimeconfig.cache
+C:\Users\Chisco\source\repos\sistemas_distribuidos_tp1\Servidor\obj\Debug\net8.0\ref\Servidor.dll
