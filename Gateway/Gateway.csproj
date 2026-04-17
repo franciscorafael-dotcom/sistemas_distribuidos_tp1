@@ -9,7 +9,7 @@
   <ItemGroup>
     <Compile Include="../Shared/Protocol.cs" />
     <Content Include="sensores.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 </Project>

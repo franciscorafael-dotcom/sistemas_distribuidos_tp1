@@ -13,6 +13,14 @@ class Sensor
     static volatile bool emExecucao = true;
     static Mutex mutexSocket = new Mutex();
 
+    static void SairComMensagem(string mensagem)
+    {
+        Console.WriteLine(mensagem);
+        try { cliente?.Close(); } catch { }
+        Console.WriteLine("[SENSOR] Prima ENTER para fechar...");
+        Console.ReadLine();
+    }
+
     // Todos os tipos de dados definidos no protocolo
     static readonly List<string> TODOS_OS_TIPOS = new List<string>
     {
@@ -132,7 +140,7 @@ class Sensor
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"[SENSOR] Erro ao ligar ao Gateway em {gatewayIP}:5000 -> {ex.Message}");
+            SairComMensagem($"[SENSOR] Erro ao ligar ao Gateway em {gatewayIP}:5000 -> {ex.Message}");
             return;
         }
 
@@ -154,8 +162,7 @@ class Sensor
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"[SENSOR] Erro ao enviar HELLO: {ex.Message}");
-            cliente.Close();
+            SairComMensagem($"[SENSOR] Erro ao enviar HELLO: {ex.Message}");
             return;
         }
 
@@ -166,8 +173,7 @@ class Sensor
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"[SENSOR] Erro ao ler resposta ao HELLO: {ex.Message}");
-            cliente.Close();
+            SairComMensagem($"[SENSOR] Erro ao ler resposta ao HELLO: {ex.Message}");
             return;
         }
 
@@ -175,8 +181,7 @@ class Sensor
 
         if (resposta != "ACK")
         {
-            Console.WriteLine("[SENSOR] Não autorizado pelo Gateway. A encerrar.");
-            cliente.Close();
+            SairComMensagem($"[SENSOR] Não autorizado pelo Gateway (resposta: {resposta}).");
             return;
         }
 

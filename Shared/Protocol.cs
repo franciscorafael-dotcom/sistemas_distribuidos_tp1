@@ -11,7 +11,6 @@ namespace Shared
         public const string REGISTER    = "REGISTER";    // REGISTER|sensor_id|tipo1,tipo2,...
         public const string DATA        = "DATA";        // DATA|sensor_id|zona|tipo|valor|timestamp
         public const string HEARTBEAT   = "HEARTBEAT";   // HEARTBEAT|sensor_id|timestamp
-        public const string VIDEO_STREAM= "VIDEO";       // VIDEO|sensor_id|zona|url_ou_porta
         public const string BYE         = "BYE";         // BYE|sensor_id
 
         // ─── Mensagens GATEWAY → SENSOR ───────────────────────────────────────
@@ -24,9 +23,6 @@ namespace Shared
         public const string GW_DATA     = "GW_DATA";    // GW_DATA|gw_id|sensor_id|zona|tipo|valor|timestamp
         public const string GW_HELLO    = "GW_HELLO";   // GW_HELLO|gw_id
         public const string GW_BYE      = "GW_BYE";     // GW_BYE|gw_id
-        public const string GW_SENSOR_START    = "GW_SENSOR_START";    // GW_SENSOR_START|gw_id|sensor_id|zona|timestamp
-        public const string GW_SENSOR_REGISTER = "GW_SENSOR_REGISTER"; // GW_SENSOR_REGISTER|gw_id|sensor_id|tipos|timestamp
-        public const string GW_SENSOR_END      = "GW_SENSOR_END";      // GW_SENSOR_END|gw_id|sensor_id|timestamp
 
         // ─── Mensagens SERVIDOR → GATEWAY ─────────────────────────────────────
         public const string SRV_ACK     = "SRV_ACK";    // SRV_ACK

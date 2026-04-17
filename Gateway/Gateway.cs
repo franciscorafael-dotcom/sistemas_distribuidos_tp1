@@ -109,6 +109,38 @@ class Gateway
         }
     }
 
+    static void NormalizarLastSyncNoArranque()
+    {
+        mutexCSV.WaitOne();
+        try
+        {
+            if (!File.Exists(ficheiroCSV)) return;
+
+            string[] linhas = File.ReadAllLines(ficheiroCSV);
+            string agora = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss");
+
+            for (int i = 0; i < linhas.Length; i++)
+            {
+                if (string.IsNullOrWhiteSpace(linhas[i])) continue;
+                string[] partes = linhas[i].Split(':', 5);
+                if (partes.Length < 5) continue;
+
+                // Evita timeout imediato após arranque quando o CSV tem timestamps antigos.
+                if (partes[1] == "ativo")
+                {
+                    partes[4] = agora;
+                    linhas[i] = string.Join(":", partes);
+                }
+            }
+
+            File.WriteAllLines(ficheiroCSV, linhas);
+        }
+        finally
+        {
+            mutexCSV.ReleaseMutex();
+        }
+    }
+
     static void MonitorizarHeartbeats()
     {
         while (true)
@@ -298,6 +330,7 @@ class Gateway
 
         Thread monitorThread = new Thread(MonitorizarHeartbeats);
         monitorThread.IsBackground = true;
+        NormalizarLastSyncNoArranque();
         monitorThread.Start();
         Console.WriteLine("[GATEWAY] Monitorização de heartbeats ativa (timeout: 90s).");
 
